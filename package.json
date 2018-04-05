@@ -1,0 +1,29 @@
+{
+  "name": "tt2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.6.1",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-stage-3": "^7.0.0-beta.42",
+    "@babel/preset-typescript": "^7.0.0-beta.42",
+    "@types/lodash": "^4.14.106",
+    "@types/natural": "^0.2.33",
+    "babel-loader": "^8.0.0-beta.2",
+    "babel-polyfill": "^6.26.0",
+    "typescript": "^2.8.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC"
+}
